@@ -33,7 +33,7 @@ class _DeskTimelineDemoScreenState extends State<DeskTimelineDemoScreen> {
               ),
               Text(
                 "timeline",
-                style: Theme.of(context).textTheme.headline6,
+                style: Theme.of(context).textTheme.titleLarge6,
               )
             ],
           ),
@@ -47,7 +47,7 @@ class _DeskTimelineDemoScreenState extends State<DeskTimelineDemoScreen> {
     return Text(
       "Today",
       style:
-          Theme.of(context).textTheme.headline5?.copyWith(color: Colors.amber),
+          Theme.of(context).textTheme.titleLarge5?.copyWith(color: Colors.amber),
     );
   }
 
